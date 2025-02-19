@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+
+    <link href="./style.css" rel="stylesheet" />
+    <title>Photography - Better photos</title>
+  </head>
+  <body class="page">
+    <div class="app">
+      <header class="header">
+        <img class="logo" src="./public/img/logo.png" alt="logo" />
+
+        <form action="#" class="search">
+          <input
+            type="text"
+            class="search__input"
+            placeholder="Search photo..."
+          />
+          <button class="search__submit">
+            <i class="fas fa-search search__icon"></i>
+          </button>
+        </form>
+
+        <nav class="nav">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#" class="nav__link">
+                <i class="fas fa-compass nav__icon"></i>
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#" class="nav__link">
+                <i class="fas fa-fire-alt nav__icon"></i>
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#" class="nav__link">
+                <i class="fas fa-user nav__icon"></i>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+      <div class="sidebar">
+        <section class="intro">
+          <h1 class="first-heading">
+            Your photos is
+            <span></span>
+          </h1>
+          <p class="intro__text">
+            Lorem ipsum dolor sit
+            <b>amet consectetur</b>
+            adipisicing elit. Tempora non harum dolore
+          </p>
+
+          <section class="social">
+            <img src="./public/img/user-1.jpg" alt="" class="social__img" />
+            <img src="./public/img/user-2.jpg" alt="" class="social__img" />
+            <img src="./public/img/user-3.jpg" alt="" class="social__img" />
+            <img src="./public/img/user-4.jpg" alt="" class="social__img" />
+            <img src="./public/img/user-5.jpg" alt="" class="social__img" />
+
+            <div class="social__container">
+              <p class="social__number">+111,111</p>
+              <p class="social__text">already joined</p>
+            </div>
+          </section>
+
+          <section class="auth">
+            <a href="#" class="btn">Sign me up</a>
+            <p class="auth__text">
+              Already a member?
+              <a href="#" class="auth__link">Sign in</a>
+            </p>
+          </section>
+        </section>
+
+        <section class="upload">
+          <div class="upload__container">
+            <i class="fas fa-cloud-upload-alt upload__icon"></i>
+
+            <p class="upload__text">Drag and drop photo</p>
+
+            <p class="upload__alternative">
+              or
+              <b>browse folder</b>
+            </p>
+          </div>
+        </section>
+
+        <section class="footer">
+          <small class="copyright">&copy; 2025 Better Photos</small>
+          <ul class="footer__list">
+            <li class="footer__item">
+              <a href="#" class="footer__link">Term & Conditions</a>
+            </li>
+
+            <li class="footer__item">
+              <a href="#" class="footer__link">Contact</a>
+            </li>
+          </ul>
+        </section>
+      </div>
+
+      <section class="gallery">
+        <div class="gallery__img-wrapper">
+          <img src="./public//img/1.jpg" alt="gallery" class="gallery__img" />
+          <p class="gallery__comment gallery__comment--1">
+            <i class="fas fa-star gallery__icon"></i>
+            <span class="gallery__number">10</span>
+            Beautiful
+          </p>
+        </div>
+
+        <div class="gallery__img-wrapper">
+          <img src="./public//img/2.jpeg" alt="gallery" class="gallery__img" />
+        </div>
+
+        <div class="gallery__img-wrapper">
+          <img src="./public//img/3.jpg" alt="gallery" class="gallery__img" />
+          <p class="gallery__comment gallery__comment--2">
+            <i class="fas fa-star gallery__icon"></i>
+            <span class="gallery__number">10</span>
+            Beautiful
+          </p>
+        </div>
+
+        <div class="gallery__img-wrapper">
+          <img src="./public//img/4.jpg" alt="gallery" class="gallery__img" />
+        </div>
+
+        <div class="gallery__img-wrapper">
+          <img src="./public//img/5.jpg" alt="gallery" class="gallery__img" />
+          <p class="gallery__comment gallery__comment--3">
+            <i class="fas fa-star gallery__icon"></i>
+            <span class="gallery__number">10</span>
+            Beautiful
+          </p>
+        </div>
+
+        <div class="gallery__img-wrapper">
+          <img src="./public//img/6.jpg" alt="gallery" class="gallery__img" />
+        </div>
+
+        <div class="gallery__img-wrapper">
+          <img src="./public//img/7.jpg" alt="gallery" class="gallery__img" />
+          <p class="gallery__comment gallery__comment--4">
+            <i class="fas fa-star gallery__icon"></i>
+            <span class="gallery__number">10</span>
+            Beautiful
+          </p>
+        </div>
+
+        <div class="gallery__img-wrapper">
+          <img src="./public//img/8.jpg" alt="gallery" class="gallery__img" />
+        </div>
+      </section>
+
+      <section class="steps">
+        <section class="step">
+          <i class="fas fa-image step__icon step__icon--1"></i>
+          <h2 class="second-heading">Upload photos</h2>
+          <p class="step__text">
+            Lorem ipsum, dolor sit
+            <b>adipisicing elit.</b>
+            Pariatur, provident.
+          </p>
+        </section>
+
+        <section class="step">
+          <i class="fas fa-star step__icon step__icon--2"></i>
+          <h2 class="second-heading">Get feedback</h2>
+          <p class="step__text">
+            Lorem ipsum, dolor sit
+            <b>adipisicing elit.</b>
+            Pariatur, provident.
+          </p>
+        </section>
+
+        <section class="step">
+          <i class="fas fa-cogs step__icon step__icon--3"></i>
+          <h2 class="second-heading">Improve your skill</h2>
+          <p class="step__text">
+            Lorem ipsum, dolor sit
+            <b>adipisicing elit.</b>
+            Pariatur, provident.
+          </p>
+        </section>
+      </section>
+    </div>
+  </body>
+</html>
